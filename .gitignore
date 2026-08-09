@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Checkpoints / weights / data
+*.pt
+*.pth
+*.bin
+*.ckpt
+/datasets/
+/data/
+/outputs/
+/results/
+*.tar
+*.tar.gz
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+wandb/
+
+# Triton cache
+.triton/

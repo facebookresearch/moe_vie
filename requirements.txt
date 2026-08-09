@@ -1,0 +1,16 @@
+torch>=2.4
+torchvision>=0.19
+triton>=3.0
+einops
+webdataset
+decord
+opencv-python
+ftfy
+regex
+Pillow
+numpy
+pandas
+scikit-learn
+tqdm
+requests
+huggingface_hub

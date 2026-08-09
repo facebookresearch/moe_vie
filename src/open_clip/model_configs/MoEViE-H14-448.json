@@ -1,0 +1,28 @@
+{
+    "embed_dim": 1024,
+    "quick_gelu": false,
+    "vision_cfg": {
+        "global_layers": -1,
+        "relative_pos_embed_type": "rope_2d",
+        "attn_pooler_heads": 16,
+        "use_ln_post": false,
+        "layers": 32,
+        "width": 1280,
+        "head_width": 80,
+        "patch_size": 14,
+        "mixture_of_expert": true,
+        "num_of_expert": 8,
+        "split": 4,
+        "k": 2,
+        "moe_layers": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31]
+    },
+    "text_cfg": {
+        "context_length": 144,
+        "vocab_size": 49408,
+        "width": 1408,
+        "mlp_ratio": 4,
+        "heads": 16,
+        "layers": 34,
+        "use_ln_post": false
+    }
+}
