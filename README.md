@@ -1,7 +1,7 @@
 # MoE-ViE: Mixture-of-Experts Vision Encoders
 
 ![ECCV 2026](https://img.shields.io/badge/ECCV-2026-1b3d6d.svg)
-![Paper](https://img.shields.io/badge/Paper-coming_soon-b31b1b.svg)
+[![Paper](https://img.shields.io/badge/Paper-arXiv:2608.17402-b31b1b.svg)](https://arxiv.org/abs/2608.17402)
 [![Models](https://img.shields.io/badge/%F0%9F%A4%97%20Models-MoE--ViE-FFD21E.svg)](https://huggingface.co/models?search=facebook/MoEViE)
 [![License](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](LICENSE)
 
@@ -91,6 +91,19 @@ src/clip_benchmark/   # zero-shot evaluation (datasets, metrics, CLI)
 
 Released under [LICENSE](LICENSE). Model cards
 are provided on the Hugging Face model pages.
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@article{zhang2026moevie,
+  title={MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding},
+  author={Bonan Zhang and Shiyu Dong and Quan Hung Tran and Katharina Gschwind and Shuqi Yang and Sijia Chen and Adel Ahmadyan and Seungwhan Moon and Lu Zhang and Ahmed Kirmani and Babak Damavandi and Anuj Kumar},
+  journal={arXiv preprint arXiv:2608.17402},
+  year={2026}
+}
+```
 
 ## Acknowledgements
 
